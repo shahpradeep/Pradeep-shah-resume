@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive resume website for Pradeep C. Shah.">
+  <title>Pradeep C. Shah | Interactive Resume</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2306153d'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-size='24' font-family='Arial' font-weight='700' fill='white'%3EPS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=interactive-resume">
+</head>
+<body>
+  <main class="resume-shell">
+    <section class="info-panel" aria-live="polite">
+      <div class="decor decor-star" aria-hidden="true"></div>
+      <div class="decor decor-medal" aria-hidden="true"></div>
+
+      <header class="intro">
+        <p class="hello">Hi! I'm...</p>
+        <h1>Pradeep C. Shah</h1>
+        <p class="role">Senior Performance Engineer / QA Automation Specialist</p>
+        <div class="contact-strip" aria-label="Contact information">
+          <a href="tel:+12489824758">248-982-4758</a>
+          <a href="mailto:shahpradeep@hotmail.com">shahpradeep@hotmail.com</a>
+        </div>
+      </header>
+
+      <div class="content-frame">
+        <section class="content-section is-active" id="panel-qualifications" data-panel="qualifications">
+          <p class="section-kicker">Resume Section</p>
+          <h2>Qualifications</h2>
+          <ul class="feature-list">
+            <li>Quality assurance testing professional with over 25 years of experience.</li>
+            <li>Proficient in performance testing using LoadRunner Enterprise, LoadRunner Professional, JMeter.</li>
+            <li>Proficient in test automation using Selenium WebDriver, Selenium Grid, UFT/QTP.</li>
+            <li>Strong knowledge of software design, SQA methodologies, defect management, and release quality practices.</li>
+            <li>Experienced in AI-assisted testing, OpenAI-based application testing, API performance testing, and cloud monitoring.</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="panel-skills" data-panel="skills" hidden>
+          <p class="section-kicker">Resume Section</p>
+          <h2>Skills</h2>
+          <div class="skill-grid">
+            <article>
+              <h3>Testing & Bug Tracking</h3>
+              <p>Selenium, Selenium Grid, LoadRunner, LoadRunner Enterprise, JMeter, UFT/QTP, Postman, Playwright, OpenText ALM, HP Quality Center.</p>
+            </article>
+            <article>
+              <h3>AI & Emerging Technology</h3>
+              <p>Generative AI fundamentals, prompt engineering, AI-assisted testing, OpenAI-based application testing, AI workload modeling.</p>
+            </article>
+            <article>
+              <h3>Languages</h3>
+              <p>HTML, CSS, ASP.NET, XML, VBScript, JavaScript, C#, Java, SQL/PL.</p>
+            </article>
+            <article>
+              <h3>Database & Cloud</h3>
+              <p>MS SQL Server, Oracle, AWS, Azure, AWS CloudWatch, Dynatrace, Grafana, Jenkins, GitHub CI/CD.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="panel-certifications" data-panel="certifications" hidden>
+          <p class="section-kicker">Resume Section</p>
+          <h2>Certifications</h2>
+          <ul class="feature-list">
+            <li>Google AI Essentials - Google, 2026.</li>
+            <li>HP QuickTest (UFT) 9.2 Professional, Exam M16.</li>
+            <li>Microsoft Certified Professional, Visual Basic 6.0.</li>
+            <li>Microsoft Certified Professional, Visual Basic 5.0.</li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="panel-clearance" data-panel="clearance" hidden>
+          <p class="section-kicker">Resume Section</p>
+          <h2>Security Clearance</h2>
+          <div class="callout">
+            <strong>Active State of Florida Government Security Clearance</strong>
+            <p>Used in support of state government performance engineering, testing, monitoring, and application quality work.</p>
+          </div>
+        </section>
+
+        <section class="content-section" id="panel-experience" data-panel="experience" hidden>
+          <p class="section-kicker">Resume Section</p>
+          <h2>Professional Experience</h2>
+          <div class="experience-board">
+            <nav class="company-tabs" aria-label="Select company">
+              <button class="company-button is-active" type="button" data-company="fdc">Florida Department of Corrections</button>
+              <button class="company-button" type="button" data-company="rocket-performance">Rocket Mortgage - Performance</button>
+              <button class="company-button" type="button" data-company="rocket-sqa">Rocket Mortgage - SQA</button>
+              <button class="company-button" type="button" data-company="active-aero">Active Aero</button>
+              <button class="company-button" type="button" data-company="kelly">Kelly Services</button>
+              <button class="company-button" type="button" data-company="delphi">Delphi Automotive</button>
+              <button class="company-button" type="button" data-company="pulte">Pulte Homes</button>
+              <button class="company-button" type="button" data-company="channelnet">ChannelNet</button>
+              <button class="company-button" type="button" data-company="novations">Novations Learning Technologies</button>
+              <button class="company-button" type="button" data-company="datanet">DataNet Quality Systems</button>
+            </nav>
+
+            <div class="company-detail-box">
+              <article class="job-card is-active" data-company-panel="fdc">
+                <time>05/2024 - 06/2026</time>
+                <h3>Florida Department of Corrections</h3>
+                <p>Sr. Performance Engineer, Contractor for the State Government of Florida</p>
+                <ul>
+                  <li>Designed and implemented LoadRunner Enterprise testing architecture, including LRE servers, load generators, network configurations, and firewall requirements.</li>
+                  <li>Designed, created, and executed complex test scenarios using LoadRunner Enterprise.</li>
+                  <li>Presented performance test results, insights, and recommended actions to stakeholders.</li>
+                  <li>Designed HTTP protocol scripts to execute business-realistic scenarios.</li>
+                  <li>Served as lead Performance Engineer for CLEO, a ChatGPT-like generative AI application using OpenAI APIs for conversational AI, document search, knowledge retrieval, document analysis, and intelligent question answering.</li>
+                  <li>Performed AI workload modeling for document searches, Q&A sessions, knowledge-base lookups, and concurrent file uploads.</li>
+                  <li>Analyzed prompt-processing latency, token generation throughput, search response times, document retrieval performance, and user experience under load.</li>
+                  <li>Executed advanced API load testing using LoadRunner Web HTTP/HTML and REST protocols.</li>
+                  <li>Executed load testing for Inmate / Offender Search and Digital Criminal Scoresheet applications.</li>
+                  <li>Used AWS CloudWatch and OpenText ALM for cloud monitoring and performance defect tracking.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="rocket-performance" hidden>
+                <time>2016 - 08/2023</time>
+                <h3>Rocket Mortgage</h3>
+                <p>Sr. Performance Engineer</p>
+                <ul>
+                  <li>Implemented LoadRunner infrastructure and robust performance testing processes.</li>
+                  <li>Designed, created, and executed complex test scenarios using LoadRunner and JMeter.</li>
+                  <li>Presented test results, insights, and recommended actions during performance review meetings.</li>
+                  <li>Designed HTTP protocol scripts and used LoadRunner TrueClient for UI load testing.</li>
+                  <li>Led performance testing efforts with development and QA teams to define requirements and objectives.</li>
+                  <li>Used Jenkins and GitHub CI/CD pipelines to launch automated JMeter performance tests.</li>
+                  <li>Analyzed root causes of bottlenecks and created scenarios to address them.</li>
+                  <li>Conducted load testing for UM Queue and Kafka queue messaging systems.</li>
+                  <li>Used Dynatrace, Grafana, and AWS CloudWatch dashboards for real-time performance monitoring.</li>
+                  <li>Utilized Java and shell scripting.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="rocket-sqa" hidden>
+                <time>2010 - 2016</time>
+                <h3>Rocket Mortgage</h3>
+                <p>Sr. SQA Engineer / Selenium WebDriver Developer</p>
+                <ul>
+                  <li>Mentored, guided, and trained SQA engineers.</li>
+                  <li>Built automated functional test frameworks using Selenium WebDriver with Java, Maven, Jenkins, C#, and Playwright.</li>
+                  <li>Automated API testing and validated RESTful and SOAP service functionality and performance.</li>
+                  <li>Used Git tools for version control and collaborative development.</li>
+                  <li>Worked with cross-functional teams and clients to develop schedules, execute test plans, and deliver high quality products.</li>
+                  <li>Developed procedures, test plans, test cases, scripts, and manual and automated tests.</li>
+                  <li>Built C# utility tools to expedite testing, including generating testing loans and changing loan statuses.</li>
+                  <li>Built reusable UFT/QTP actions and function libraries using HP QuickTest Pro.</li>
+                  <li>Developed VBScript functions and customized HP Quality Center workflows.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="active-aero" hidden>
+                <time>11/2009 - 01/2010</time>
+                <h3>Active Aero, Belleville, MI</h3>
+                <p>LoadRunner Developer, Contractor</p>
+                <ul>
+                  <li>Implemented LoadRunner infrastructure including Controller, MI Listener, Load Generator, and VuGen.</li>
+                  <li>Configured MoFw with MI Listener and Quality Center integration with LoadRunner.</li>
+                  <li>Installed QTP site-based license for future use.</li>
+                  <li>Created LoadRunner scripts and reusable function libraries.</li>
+                  <li>Designed, created, and executed business-realistic scenarios.</li>
+                  <li>Collaborated with business analysts, developers, and network engineers to validate configuration settings.</li>
+                  <li>Identified server-based, database-based, and code-based bottlenecks.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="kelly" hidden>
+                <time>11/2006 - 09/2009</time>
+                <h3>Kelly Services, Troy, MI</h3>
+                <p>Sr. Automation Script Developer</p>
+                <ul>
+                  <li>Designed, wrote, and maintained QTP automated test scripts for PeopleSoft HR and Finance applications.</li>
+                  <li>Created automation framework templates, reusable actions, and function libraries.</li>
+                  <li>Developed VBScript functions for automation scripts.</li>
+                  <li>Used HP Quality Center to manage QA processes and customized domains, projects, users, permissions, and workflows.</li>
+                  <li>Wrote SQL queries in Toad for Oracle data validation.</li>
+                  <li>Developed LoadRunner scripts for PeopleSoft performance tests.</li>
+                  <li>Created use cases, test specifications, test cases, test scripts, and test data.</li>
+                  <li>Developed VB.NET applications and applied structured programming and SQA methodologies.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="delphi" hidden>
+                <time>06/2006 - 11/2006</time>
+                <h3>Delphi Automotive, Troy, MI</h3>
+                <p>Quality Assurance Engineer, Contractor</p>
+                <ul>
+                  <li>Developed automated testing solutions for SAP PP and MM modules using UFT/QTP.</li>
+                  <li>Led automation of critical SAP PP and MM testing processes.</li>
+                  <li>Implemented data-driven testing approaches to validate SAP processes across datasets.</li>
+                  <li>Developed test strategies and test cases under strict release deadlines.</li>
+                  <li>Used Mercury Quality Center / Test Director to manage QA test processes.</li>
+                  <li>Built reusable UFT action and function libraries.</li>
+                  <li>Developed XML files and VBScript automation scripts.</li>
+                  <li>Executed UFT regression scripts for every build through release.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="pulte" hidden>
+                <time>02/2005 - 06/2006</time>
+                <h3>Pulte Homes, West Bloomfield, MI</h3>
+                <p>Quality Automation Tester, Contractor</p>
+                <ul>
+                  <li>Designed and wrote automated UFT/QTP scripts that reduced testing process time.</li>
+                  <li>Automated SAP SCM supply chain workflows and inventory management test coverage.</li>
+                  <li>Conducted UFT training sessions for SAP project teams.</li>
+                  <li>Built reusable UFT action and function libraries.</li>
+                  <li>Developed XML files and VBScript automation scripts.</li>
+                  <li>Wrote SQL queries in Query Analyzer to verify values.</li>
+                  <li>Executed QuickTest Pro regression scripts for each build through release.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="channelnet" hidden>
+                <time>08/2004 - 12/2004</time>
+                <h3>ChannelNet, Dearborn, MI</h3>
+                <p>Quality Assurance Engineer, Contractor</p>
+                <ul>
+                  <li>Developed and executed test plans and test cases to ensure application quality.</li>
+                  <li>Designed and wrote automated scripts using Mercury WinRunner.</li>
+                  <li>Analyzed business requirements and design specifications and recommended automated testing approaches.</li>
+                  <li>Executed and monitored automated and manual testing results and communicated outcomes to the project manager.</li>
+                  <li>Tested Ford web-based applications including Dealerconnection.com and Report.dealerconnection.com.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="novations" hidden>
+                <time>08/2003 - 07/2004</time>
+                <h3>Novations Learning Technologies, Lansing, MI</h3>
+                <p>Functionality Test Automation</p>
+                <ul>
+                  <li>Developed test cases and scenarios to ensure application quality.</li>
+                  <li>Worked closely with product development and tested J2EE applications.</li>
+                  <li>Designed and wrote automated test programs using Mercury QuickTest Pro.</li>
+                  <li>Performed Test Director administration tasks.</li>
+                  <li>Developed and executed test plans for software releases.</li>
+                  <li>Built reusable action and function libraries using Mercury QuickTest Pro 6.0.</li>
+                  <li>Tested Pepsi Mydevelopnet.com and GM Gmtraining.com applications.</li>
+                </ul>
+              </article>
+
+              <article class="job-card" data-company-panel="datanet" hidden>
+                <time>08/2000 - 07/2003</time>
+                <h3>DataNet Quality Systems, Southfield, MI</h3>
+                <p>Automation Test Engineer</p>
+                <ul>
+                  <li>Designed and wrote automated testing programs as a Quality Assurance Programmer.</li>
+                  <li>Programmed with WinRunner and Rational Visual Test 6.5.</li>
+                  <li>Designed, wrote, and maintained automated test programs for the QC department.</li>
+                  <li>Designed and wrote OLE-layer test programs using Visual Basic 6.0.</li>
+                  <li>Created OLE automation testing programs to call COM components.</li>
+                  <li>Discussed variances with QA managers and developers.</li>
+                  <li>Tested SPC / Statistical Process Control applications.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="panel-education" data-panel="education" hidden>
+          <p class="section-kicker">Resume Section</p>
+          <h2>Education / Professional Training</h2>
+          <div class="education-list">
+            <article>
+              <h3>Schoolcraft College, Livonia, MI</h3>
+              <p>Visual Basic 5.0 and Cobol professional training.</p>
+            </article>
+            <article>
+              <h3>ALP International</h3>
+              <p>JMeter Performance Test 5-day workshop.</p>
+            </article>
+            <article>
+              <h3>MS University, Baroda, India</h3>
+              <p>Bachelor of Arts Degree, Accounting & Auditing.</p>
+              <p>Minors: Economics, Finance, Statistics, and Business Law.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <aside class="category-panel" aria-label="Resume categories">
+      <div class="category-heading">
+        <p>Resume</p>
+        <h2>Categories</h2>
+      </div>
+      <nav class="category-list" aria-label="Select resume category">
+        <button class="category-button is-active" type="button" data-target="qualifications">
+          <span class="dot">+</span>
+          <span>Qualifications</span>
+        </button>
+        <button class="category-button" type="button" data-target="skills">
+          <span class="dot">+</span>
+          <span>Skills</span>
+        </button>
+        <button class="category-button" type="button" data-target="certifications">
+          <span class="dot">+</span>
+          <span>Certifications</span>
+        </button>
+        <button class="category-button" type="button" data-target="clearance">
+          <span class="dot">+</span>
+          <span>Security Clearance</span>
+        </button>
+        <button class="category-button" type="button" data-target="experience">
+          <span class="dot">+</span>
+          <span>Professional Experience</span>
+        </button>
+        <button class="category-button" type="button" data-target="education">
+          <span class="dot">+</span>
+          <span>Education / Professional Training</span>
+        </button>
+      </nav>
+    </aside>
+  </main>
+
+  <script src="script.js?v=interactive-resume"></script>
+</body>
+</html>
