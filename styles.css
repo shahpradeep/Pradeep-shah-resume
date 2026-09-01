@@ -223,8 +223,20 @@ h1 {
 
 .skill-grid p,
 .education-list p,
+.education-list li,
 .callout p {
   margin: 0;
+}
+
+.education-list ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.education-list li::marker {
+  color: var(--accent);
 }
 
 .callout strong {
