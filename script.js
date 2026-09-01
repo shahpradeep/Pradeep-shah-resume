@@ -21,6 +21,13 @@ buttons.forEach((button) => {
   });
 });
 
+const params = new URLSearchParams(window.location.search);
+const requestedSection = params.get("section");
+
+if (requestedSection && document.querySelector(`[data-panel="${requestedSection}"]`)) {
+  showPanel(requestedSection);
+}
+
 function showCompany(company) {
   companyButtons.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.company === company);
